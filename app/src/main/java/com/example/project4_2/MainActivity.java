@@ -25,12 +25,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("초간단 계산기");
+        setTitle("초간단 계산기 김송이");
         num1 = (EditText) findViewById(R.id.num1);
         num2 = (EditText) findViewById(R.id.num2);
         plus = (Button) findViewById(R.id.plus);
         minus = (Button) findViewById(R.id.minus);
         divi = (Button) findViewById(R.id.division);
+        rema=(Button) findViewById(R.id.remain);
         result = (TextView) findViewById(R.id.cal_result);
 
         plus.setOnClickListener(new View.OnClickListener() {
